@@ -11,6 +11,7 @@ header {
 
 nav {
 text-align: right;
+display: ;
 }
 
 a {
@@ -57,10 +58,21 @@ h1 {
     margin-right: 780px ;
 }
 
+h2 {
+    color: #FFF;
+    
+}
+
 #img {
     display: inline-block;
     margin-top: 20px;
+}
 
+div {
+background-color: #000;
+display: inline-block;
+margin-left: 128px;
+margin-top: 116px
 }
 
 /* o profixo # faz com que procure o id e não a tag.
