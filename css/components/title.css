@@ -2,5 +2,25 @@
     color: #FFF;
     display: inline-block;
     margin-left: 20px;
-    margin-right: 780px ;
+    font-size: 30px;
+    text-align: left;
+}
+
+h1 {
+    font-size: 40px;
+    color: #660d0d;
+    margin-bottom: 28px;
+}
+
+h2 {
+    color: #000;
+    
+}
+
+
+img {
+    display: inline-block;
+    margin-top: 20px;
+    width: 150px;
+    height: 150px;
 }
