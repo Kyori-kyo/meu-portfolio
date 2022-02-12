@@ -1,12 +1,12 @@
-#h1 {
+.h1 {
     color: #FFF;
-    display: inline-block;
+    display: inline-flex;
     margin-left: 20px;
     font-size: 30px;
     text-align: left;
 }
 
-h1 {
+.box h1 {
     font-size: 40px;
     color: #660d0d;
     margin-bottom: 28px;
@@ -19,7 +19,7 @@ h2 {
 
 
 img {
-    display: inline-block;
+    display: inline-flex;
     margin-top: 20px;
     width: 150px;
     height: 150px;

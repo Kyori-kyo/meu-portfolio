@@ -10,8 +10,10 @@ header {
 }
 
 nav {
-    display: inline-flexbox;
+    display: inline-block;
     text-align: right;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
 
 a {
@@ -31,24 +33,6 @@ background-color: #BA1F33;
 width: 10px;
 height: 10px;
 margin-right: 10px;
-}
-
-#button {
-display: inline-block;
-background-color: #BA1F33;
-padding: 18px 20px;
-margin-right: 0;
-transition-duration: 0.4s;
-cursor: pointer;
-text-align: center;
-text-decoration: none;
-color:#FFF
-}
-
-#button:hover {
-    transform: scale(1.01);
-    background-color: #FFF;
-    color: #BA1F33;
 }
 
 /* o profixo # faz com que procure o id e não a tag.
