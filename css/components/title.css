@@ -1,20 +1,10 @@
-.h1 {
+.title {
     color: #FFF;
     display: inline-flex;
     margin-left: 20px;
     font-size: 30px;
     text-align: left;
-}
-
-.box h1 {
-    font-size: 40px;
-    color: #660d0d;
-    margin-bottom: 28px;
-}
-
-h2 {
-    color: #000;
-    
+    padding-right: 750px;
 }
 
 

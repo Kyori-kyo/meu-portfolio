@@ -5,9 +5,11 @@
     margin-right: 0;
     transition-duration: 0.4s;
     cursor: pointer;
-    text-align: center;
+    text-align: left;
     text-decoration: none;
-    color:#FFF
+    font-size: 20px;
+    color:#FFF;
+    font-family: "Fira Code", "Times New Roman", "sans-serif";
     }
     
 .button:hover {
