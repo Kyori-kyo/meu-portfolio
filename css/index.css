@@ -1,0 +1,7 @@
+nav {
+    display: inline-block;
+}
+
+/* o profixo # faz com que procure o id e não a tag.
+"display: inline-block;" basicamente nos permite editar o background de uma tag.
+a altura da caixa e a altura da linha serem iguais é uma técnica para centralizar quando se tem só uma linha (line-height+heigh= 60px).

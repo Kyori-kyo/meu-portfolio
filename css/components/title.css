@@ -1,16 +1,17 @@
 .title {
     color: #FFF;
-    display: inline-flex;
     margin-left: 20px;
     font-size: 30px;
     text-align: left;
-    padding-right: 750px;
+    display: inline-block;
+    padding-right: 710px;
+
 }
 
 
 img {
-    display: inline-flex;
     margin-top: 20px;
+    margin-left: 20px;
     width: 150px;
     height: 150px;
 }
