@@ -1,13 +1,11 @@
 .title {
+    display: inline-block;
     color: #FFF;
     margin-left: 20px;
     font-size: 30px;
     text-align: left;
-    display: inline-block;
-    padding-right: 710px;
-
+    margin-right: 710px;
 }
-
 
 img {
     margin-top: 20px;
