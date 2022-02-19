@@ -1,1 +1,23 @@
+.section {
+    background-color: #2e3335;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    border-bottom: 10px solid #BA1F33;
+}
 
+.skill-tec {
+    display: flex;
+    font-family: "Caveat", "Times New Roman", "sans-serif";
+    font-size: 25px;
+    color: #FFF;
+}
+
+.skill-tec .icon {
+    margin-right: 25px;
+}
+
+.skill-tec .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}

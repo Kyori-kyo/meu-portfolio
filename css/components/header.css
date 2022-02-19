@@ -8,7 +8,7 @@
     
 }
 
-.header .logo {
+.header .head {
     display: flex;
     justify-content: space-between;
 }
@@ -17,7 +17,7 @@
     margin-top: auto;
 }
 
-.header .title h1 {
+.header .main-title h1 {
     display: inline;
     color: #FFF;
     margin-left: 20px;
@@ -26,10 +26,10 @@
     text-align: left;
 }
 
-img {
+.header .logo {
     margin-top: 20px;
     margin-left: 20px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     width: 150px;
     height: 150px;
 }

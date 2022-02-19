@@ -1,9 +1,9 @@
-.title {
+.main-title {
     color: #FFF;
     font-family: "Caveat", "Times New Roman", "sans-serif";
     font-size: 50px;
 }
 
-.title.-second {
+.main-title.-second {
     text-align: center;
 }
