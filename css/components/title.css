@@ -1,15 +1,9 @@
 .title {
-    display: inline-block;
     color: #FFF;
-    margin-left: 20px;
-    font-size: 30px;
-    text-align: left;
-    margin-right: 710px;
+    font-family: "Caveat", "Times New Roman", "sans-serif";
+    font-size: 50px;
 }
 
-img {
-    margin-top: 20px;
-    margin-left: 20px;
-    width: 150px;
-    height: 150px;
+.title.-second {
+    text-align: center;
 }

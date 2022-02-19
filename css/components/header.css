@@ -1,12 +1,35 @@
 .header {
+    display: block;
     background-color: black;
     border-bottom: 10px solid #BA1F33;
     padding-left: 20px;
     padding-right: 20px;
-    padding-top: 10px;
+    padding-top: 10px
+    
 }
 
 .header .logo {
-    display: inline-block;
+    display: flex;
+    justify-content: space-between;
+}
 
+.header .links {
+    margin-top: auto;
+}
+
+.header .title h1 {
+    display: inline;
+    color: #FFF;
+    margin-left: 20px;
+    font-family: "Caveat", "Times New Roman", "sans-serif";
+    font-size: 50px;
+    text-align: left;
+}
+
+img {
+    margin-top: 20px;
+    margin-left: 20px;
+    padding-bottom: 10px;
+    width: 150px;
+    height: 150px;
 }

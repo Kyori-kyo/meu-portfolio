@@ -11,7 +11,7 @@
 .banner .wrapper {
     display: flex;
     flex-direction: column;
-    width: 640px;
+    width: 600px;
 }
 
 .banner .box {

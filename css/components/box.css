@@ -1,14 +1,8 @@
 .box {
     display: inline-block;
-    background-color: #3A4042;
+    background-color: #2e3335;
     box-shadow: 10px 10px 0 #000;
     text-align: center;
     padding: 42px 44px;
-}
-
-
-.box h1 {
-    font-size: 40px;
-    color: #660d0d;
     margin-bottom: 28px;
 }
