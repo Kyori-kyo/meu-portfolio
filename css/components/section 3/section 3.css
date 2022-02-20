@@ -1,0 +1,22 @@
+.section-3 {
+    background-color: #000;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    border-bottom: 10px solid #BA1F33;
+}
+
+.section-3 .main-title {
+    padding-bottom: 50px;
+}
+
+.section-3 .banner-pj {
+    display: flex;
+    justify-content: space-around;
+}
+
+.section-3 .projetos {
+    width: 260px;
+    height: 260px;
+    padding: 20px 20px;
+    background-color: #2e3335;
+}

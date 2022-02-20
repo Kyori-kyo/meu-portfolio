@@ -1,6 +1,6 @@
-.banner {
+.section-1 {
     box-sizing: border-box;
-    background-image: url(../../assets/imgs/kenshi.jpg);
+    background-image: url(../../../assets/imgs/kenshi.jpg);
     background-size: 100%;
     height: 800px;
     border-bottom: 10px solid #BA1F33;
@@ -8,22 +8,22 @@
     padding-left: 90px;
 }
 
-.banner .wrapper {
+.section-1 .wrapper-box {
     display: flex;
     flex-direction: column;
     width: 600px;
 }
 
-.banner .box {
+.section-1 .box {
     margin-bottom: 40px;
 }
 
-.banner .navigation {
+.section-1 .navigation {
     display: flex;
     justify-content: space-around;
 }
 
-.banner .button {
+.section-1 .button {
     box-shadow: 5px 5px #000;
 
 }
