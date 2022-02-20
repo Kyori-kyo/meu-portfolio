@@ -13,7 +13,7 @@
     }
     
 .button:hover {
-    transform: scale(1.01);
+    transform: scale(1.05);
     background-color: #FFF;
     color: #BA1F33;
 }
