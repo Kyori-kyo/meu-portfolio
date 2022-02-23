@@ -4,9 +4,15 @@
     background-color: #BA1F33;
     box-shadow: 5px 5px 0 #000;
     cursor: pointer;
+    padding-left: 13px;
 }
 
 .button-arrow::before {
-    content: ">";
-
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    width: 15px;
+    height: 15px;
+    border: 15px solid transparent;
+    border-left: 28px solid white;
 }
