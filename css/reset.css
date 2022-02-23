@@ -1,7 +1,21 @@
 body, button, h1, h3, header {
     margin: 0;
+    border: none;
 }
 
 nav {
     display: inline-block;
 }
+
+button {
+    
+    display: inline-block;
+    background-color: #BA1F33;
+    margin-right: 0;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    color:#FFF;
+    font-family: "Fira Code", "Times New Roman", "sans-serif";
+}
+
