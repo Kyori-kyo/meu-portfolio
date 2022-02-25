@@ -2,10 +2,11 @@
     box-sizing: border-box;
     background-image: url(../../../assets/imgs/kenshi.jpg);
     background-size: 100%;
-    height: 800px;
+    height: 100%;
     border-bottom: 10px solid #BA1F33;
     padding-top: 115px;
     padding-left: 90px;
+    padding-bottom: 650px;
 }
 
 .section-1 .wrapper-box {
