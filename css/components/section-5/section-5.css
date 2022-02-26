@@ -1,0 +1,35 @@
+.section-5 {
+    background-color: #000;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    border-bottom: 10px solid #BA1F33;
+}
+
+.section-5 .main-title {
+    margin-bottom: 50px;
+}
+
+.section-5 .button {
+    margin-right: 20px;
+    margin-top: 5px;
+    border-radius: 5px;
+    padding: 15px 17px;
+
+}
+
+.form {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    background-color: azure;
+    background-clip: padding-box;
+    border: 1px solid #f00;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
