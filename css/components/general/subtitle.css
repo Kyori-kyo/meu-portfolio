@@ -1,4 +1,8 @@
-.subtile {
+.main-subtitle {
     color: #000;
     font-size: 30px
+}
+
+.subtitle {
+    color: #FFF;
 }
