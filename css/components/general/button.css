@@ -9,8 +9,15 @@
     text-decoration: none;
     font-size: 20px;
     color:#FFF;
+    border-radius: 5px;
     font-family: "Fira Code", "Times New Roman", "sans-serif";
     }
+
+.button.-b2 {
+    border-radius: 0px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
     
 .button:hover {
     transform: scale(1.05);

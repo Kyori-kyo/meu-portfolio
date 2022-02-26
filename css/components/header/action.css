@@ -9,10 +9,20 @@
     margin-right: 30px;
 }
 
+.action:hover {
+    transform: scale(1.05);
+    color: #BA1F33;
+}
+
 .action::before {
 content: "";
 background-color: #BA1F33;
 width: 10px;
 height: 10px;
 margin-right: 10px;
+}
+
+.action:hover::before {
+    transform: scale(1.05);
+    background-color: #FFF;
 }
