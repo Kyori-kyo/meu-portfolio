@@ -1,4 +1,4 @@
-.section-1 {
+#section-1 {
     box-sizing: border-box;
     background-image: url(../../../assets/imgs/kenshi.jpg);
     background-size: 100%;
@@ -9,22 +9,22 @@
     padding-bottom: 500px;
 }
 
-.section-1 .wrapper-box {
+#section-1 .wrapper-box {
     display: flex;
     flex-direction: column;
     width: 600px;
 }
 
-.section-1 .box {
+#section-1 .box {
     margin-bottom: 40px;
 }
 
-.section-1 .navigation {
+#section-1 .navigation {
     display: flex;
     justify-content: space-around;
 }
 
-.section-1 .button {
+#section-1 .button {
     box-shadow: 5px 5px #000;
 
 }

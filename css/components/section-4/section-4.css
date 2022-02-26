@@ -1,4 +1,4 @@
-.section-4 {
+#section-4 {
   box-sizing: border-box;
   background-color: #2e3335;
   padding-top: 50px;
@@ -6,7 +6,7 @@
   border-bottom: 10px solid #BA1F33;
 }
 
-.section-4 .main-title.-second {
+#section-4 .main-title.-second {
   padding-bottom: 70px;
 }
 

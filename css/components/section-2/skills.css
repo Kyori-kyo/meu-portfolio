@@ -1,11 +1,11 @@
-.section-2 {
+#section-2 {
     background-color: #2e3335;
     padding-top: 50px;
     padding-bottom: 100px;
     border-bottom: 10px solid #BA1F33;
 }
 
-.section-2 .main-title {
+#section-2 .main-title {
     margin-bottom: 60px;
 }
 
