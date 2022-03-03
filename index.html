@@ -34,6 +34,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
+    <script src="css/components/general/general.js" ></script>
 </head>
 
 <body>
@@ -42,16 +43,16 @@
             <img class="logo" src="assets/imgs/loguinho.png" alt="Logo Ríchard Lucas">
 
             <nav class="links"> 
-                <a class= "action" href="#section-2" lang="en">Skills</a> 
-                <a class= "action" href="#section-3">Projetos</a>
-                <a class= "action" href="#section-4">Sobre</a>
-                <a class= "action" href="#section-5">Contatos</a>
+                <a class= "action" data-page="section-2" lang="en">Skills</a> 
+                <a class= "action" data-page="section-3">Projects</a>
+                <a class= "action" data-page="section-4">About</a>
+                <a class= "action" data-page="section-5">Contact</a>
                 <a class= "button -b2" href="http://www.w3.org/2000/svg" lang="en">Download CV</a>
             </nav>
         </div>
     </header>
 
-    <section id="section-1">
+    <section id="section-1" class="section" >
         <div class="wrapper-box">
             <div class="box">
                 <h1 class="main-title">Ríchard Lucas</h1>
@@ -65,7 +66,7 @@
          </div>
     </section>
 
-    <section id="section-2">
+    <section id="section-2" class="section">
         <h2 id= "#1" class="main-title -second">S k i l l s</h2>
 
         <div class="wrapper-skill">
@@ -136,7 +137,7 @@
         </div>
     </section>
 
-    <section id="section-3">
+    <section id="section-3" class="section">
         <h3 class="main-title -second">P r o j e t o s</h3>
 
         <figure class="banner-pj">
@@ -145,7 +146,7 @@
         </figure>
     </section>
 
-    <section id="section-4">
+    <section id="section-4" class="section">
         <h3 class="main-title -second">S o b r e</h3>
             <div class="bodi">
                 <div class="items-wrapper">
@@ -158,11 +159,11 @@
                 </div>
             </div>    
 
-        <p class="description">Apaixonado por aprender, Ríchard já foi mecânico para ajudar seu pai, eletricista, vendedor, tutor e outros em sua busca por encontrar o que amava. Enconctrou a programação cedo porém nunca teve a oportunidade de se aprofundar. Atualmente essa oportunidade chegou e o mesmo dedica 90% do seu tempo para aprimorar suas habilidades com o objetivo de providenciar projetos inovadores e bem feitos. Em seu tempo livre gosta de tocar ukulele, ler ou caminhar na praia a noite.</p>    
+        <p class="description">Apaixonado por aprender, Ríchard já foi mecânico, para ajudar seu pai, ajudante de eletricista, vendedor, tutor e outros. Descobriu a programação em 2011 porém não teve a oportunidade de se aprofundar até 2021. Atualmente terminou seus estudos e o mesmo dedica 90% do seu tempo para aprimorar suas habilidades com o objetivo de providenciar projetos inovadores e bem feitos. Em seu tempo livre gosta de tocar ukulele, ler ou caminhar na praia a noite.</p>    
         
     </section>
 
-    <section id="section-5">
+    <section id="section-5" class="section">
         <h3 class="main-title -second">C o n t a t o</h3>
 
         <div class="container">
@@ -179,19 +180,17 @@
 
             <div class="mb-3 -b3">
                 <button type="button" class="button">Enviar</button>
-                <button type="button" class="button">Voltar</button>
-
-                <nav class="link-logos">
-                    <a href=""> <img class="linkedin-logo" src="assets/imgs/pngegg.png" alt="linkedin logo"> </a>
-                    <a href="">github</a>
-                    <a href="">instragram</a>
-                    <a href="">twitter</a>
-                </nav>
+                <button type="button" class="button">Voltar</button>              
             </div>
 
-            <div class="mx-auto" style="width: 200px;">
-                <p>Parágrafo final centralizado</p>
-            </div>
+            <nav class="link-logos">
+                <a href="https://www.linkedin.com/in/richardlucascm/"> <img class="end-logo" src="assets/imgs/pngegg.png" alt="linkedin logo"> </a>
+                <a href="https://github.com/Kyori-kyo"> <img class="end-logo" src="assets/imgs/github.png" alt="GitHub logo"> </a>
+                <a href="https://www.instagram.com/rick_greymane/"> <img class="end-logo" src="assets/imgs/insta.png" alt="Instagram logo"> </a>
+                <a href="https://twitter.com/Kyori_G"> <img class="end-logo" src="assets/imgs/twitter.png" alt="Twitter logo"> </a>
+            </nav>
+
+            <p class="end">The end</p>            
 
         </div>
 
