@@ -2,17 +2,17 @@
     box-sizing: border-box;
     background-image: url(../../../assets/imgs/kenshi.jpg);
     background-size: 100%;
-    height: 100%;
+    height: 82vh;
     border-bottom: 10px solid #BA1F33;
     padding-top: 115px;
     padding-left: 90px;
-    padding-bottom: 500px;
+    padding-right: 90px;  
 }
 
 #section-1 .wrapper-box {
     display: flex;
     flex-direction: column;
-    width: 600px;
+    width: auto;
 }
 
 #section-1 .box {
@@ -28,3 +28,34 @@
     box-shadow: 5px 5px #000;
 
 }
+
+/* coiso */
+.wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#section-1 .main-title {
+    text-align: center;
+  font-size: 100px;
+  word-spacing: 10px;
+  background: linear-gradient(90deg, black, white, black);
+  -webkit-text-fill-color: transparent;
+  background-size: 70% 100%;
+  background-repeat: no-repeat;
+  -webkit-background-clip: text;
+  animation: shade 5s linear infinite;
+}
+
+@keyframes shade {
+  0% {
+    background-position-x: -400%;
+  }
+  100% {
+    background-position-x: 400%;
+  }
+}
+
+/*fonte daora: avenir-lt-w3_85-heavy1475544,sans-serif */
