@@ -1,3 +1,7 @@
+#section-2, #section-3, #section-4, #section-5 {
+    display: none;
+}
+
 body, button, h1, h3, header {
     margin: 0;
     border: none;
