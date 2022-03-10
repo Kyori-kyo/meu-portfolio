@@ -1,5 +1,5 @@
 #section-3 {
-    height: 800px;
+    height: 790px;
     background-color: #000;
     padding-top: 50px;
     padding-bottom: 100px;
@@ -13,9 +13,11 @@
 #section-3 .banner-pj {
     display: flex;
     justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-#section-3 .projetos {
+#section-3 .projects {
     width: 260px;
     height: 260px;
     padding: 20px 20px;
@@ -25,6 +27,15 @@
     cursor: pointer;
 }
 
-#section-3 .projetos:hover {
+#section-3 .projects.especify1 {
+    padding: 1px;
+}
+
+#section-3 .projects.especify2 {
+    padding: 70px 25px 70px 25px;
+    background-color: #301818;
+}
+
+#section-3 .projects:hover {
     transform: scale(1.10);
 }
