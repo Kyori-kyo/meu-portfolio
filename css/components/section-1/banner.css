@@ -1,4 +1,58 @@
 #section-1 {
+  box-sizing: border-box;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  font-family: 'poppins', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  max-height: 800px;
+  background: #000;
+  border-bottom: 10px solid #BA1F33;
+}
+
+
+.banner-title {
+  display: flex;
+  overflow: hidden;
+  position: fixed; 
+  color: azure;
+  font-size: 150px;
+}
+
+.banner-title p {
+  z-index: 1;
+  width: 100%;
+  font-family: Italianno;
+  margin-left: 80px;
+  margin-bottom: 60%;
+}
+
+#section-1 .banner {
+  position: relative;  
+  font-size: 1.5em;
+  letter-spacing: -0.05em;
+  line-height: 0.7em;
+  background: url(../../../assets/imgs/kenshi.jpg);
+  background-blend-mode: color-dodge;
+  background-position-x: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+@media screen and (max-width: 1700px) {
+  #section-1 {
+    
+  }
+}
+
+/*#section-1 {
     box-sizing: border-box;
     background-image: url(../../../assets/imgs/kenshi.jpg);
     background-size: 100%;
@@ -9,27 +63,19 @@
     padding-right: 90px;  
 }
 
-#section-1 .wrapper-box {
-    display: flex;
-    flex-direction: column;
-    width: auto;
+#section-1 .homepage {
+    border-bottom: 1px solid #000;
+    font-size: 70px;
+    font-family: fira code,;
+    text-align: center;
 }
 
-#section-1 .box {
-    margin-bottom: 40px;
-}
 
-#section-1 .navigation {
-    display: flex;
-    justify-content: space-around;
-}
 
-#section-1 .button {
-    box-shadow: 5px 5px #000;
 
-}
 
-/* coiso */
+
+/* coiso 
 .wrapper {
   height: 100vh;
   display: flex;
@@ -56,6 +102,6 @@
   100% {
     background-position-x: 400%;
   }
-}
+}*/
 
 /*fonte daora: avenir-lt-w3_85-heavy1475544,sans-serif */
