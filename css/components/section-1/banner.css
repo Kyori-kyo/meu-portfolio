@@ -18,9 +18,9 @@
 .banner-title {
   display: flex;
   overflow: hidden;
-  position: fixed; 
+  position: absolute; 
   color: azure;
-  font-size: 150px;
+  font-size: 200px;
 }
 
 .banner-title p {
@@ -28,7 +28,7 @@
   width: 100%;
   font-family: Italianno;
   margin-left: 80px;
-  margin-bottom: 60%;
+  margin-bottom: 30%; 
 }
 
 #section-1 .banner {
@@ -46,11 +46,11 @@
   color: transparent;
 }
 
-@media screen and (max-width: 1700px) {
+/* @media screen and (max-width: 1700px) {
   #section-1 {
-    
+
   }
-}
+} */
 
 /*#section-1 {
     box-sizing: border-box;
