@@ -2,11 +2,11 @@
     display: inline-flex;
     align-items: center;
     color: #FFF;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-family: "Fira Code", "Times New Roman", "sans-serif";
     font-weight: 500;
     text-decoration: none;
-    margin-right: 30px;
+    margin-right: 1.8rem;
 }
 
 .action:hover {
@@ -17,9 +17,9 @@
 .action::before {
 content: "";
 background-color: #BA1F33;
-width: 10px;
-height: 10px;
-margin-right: 10px;
+width: 0.6rem;
+height: 0.6rem;
+margin-right: 0.6rem;
 }
 
 .action:hover::before {

@@ -1,7 +1,7 @@
 .progress-bar {
     background-color: #FFF;
-    border: 5px solid #000;
-    height: 40px;  
+    border: 0.3rem solid #000;
+    height: 2.5rem;  
 }
 
 .progress-bar::-webkit-progress-value  {

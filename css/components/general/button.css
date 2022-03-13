@@ -1,22 +1,22 @@
 .button {
     display: inline-block;
     background-color: #BA1F33;
-    padding: 18px 20px;
+    padding: 1.1rem 1.25rem;
     margin-right: 0;
     transition-duration: 0.4s;
     cursor: pointer;
     text-align: left;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 1.25rem;
     color:#FFF;
-    border-radius: 5px;
+    border-radius: 0.3rem;
     font-family: "Fira Code", "Times New Roman", "sans-serif";
     }
 
 .button.-b2 {
-    border-radius: 0px;
-    border-top-right-radius: 5px;
-    border-top-left-radius: 5px;
+    border-radius: 0;
+    border-top-right-radius: 0.3rem;
+    border-top-left-radius: 0.3rem;
 }
     
 .button:hover {
