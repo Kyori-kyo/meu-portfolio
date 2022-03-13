@@ -2,9 +2,11 @@
     display: block;
     background-color: black;
     border-bottom: 0.62rem solid #BA1F33;
-    padding-left: 2%;
-    padding-right: 2%;
+    padding-left: auto;
+    padding-right: auto;
     padding-top: 0.62rem;
+    
+    max-width: 100%
 }
 
 .header .head {
@@ -13,9 +15,8 @@
 }
 
 .header .links {
-    
     margin-top: auto;
-    padding-left: 15%;
+    padding-left: auto;
 }
 
 .header .main-title h1 {

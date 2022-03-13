@@ -1,17 +1,15 @@
 #section-1 {
+  display: block;
   box-sizing: border-box;
   overflow: hidden;
-  margin: 0;
-  padding: 0;
   font-family: 'poppins', sans-serif;
-  display: flex;
   align-items: center;
   justify-content: center;
-  height: 100%;
-  width: 100%;
-  max-height: 50rem;
   background: #000;
   border-bottom: 10px solid #BA1F33;
+  max-height: 50rem;
+  max-width: 100%;
+  padding-right: auto;
 }
 
 
@@ -20,7 +18,7 @@
   overflow: hidden;
   position: absolute; 
   color: azure;
-  font-size: 12.5rem;
+  font-size: 7.5rem;
 }
 
 .banner-title p {
